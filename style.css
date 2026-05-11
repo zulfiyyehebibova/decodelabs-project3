@@ -393,13 +393,107 @@ body.dark-mode .hero-image img {
 }
 
 /* ── Responsive ── */
-@media (max-width: 640px) {
-    .navbar { padding: 0 20px; }
-    #home { flex-direction: column; text-align: center; padding: 60px 20px; }
-    .hero-desc { margin: 0 auto 40px; }
-    .hero-image { display: none; }
-    .nav-list { gap: 16px; }
-    .nav-list ul { gap: 16px; }
-    #menu, #contact { padding: 70px 20px; }
-    .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        padding: 15px 20px;
+        position: relative; 
+    }
+
+    .nav-list {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-list ul {
+        gap: 15px;
+    }
+
+    .nav-list ul li a {
+        font-size: 0.8rem;
+    }
+
+    #toggleBtn {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+
+    #home {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        margin-top: 20px;
+        min-height: auto;
+        gap: 30px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        order: 1;
+    }
+
+    .hero-content h1 {
+        font-size: 2.8rem; 
+        line-height: 1.2;
+    }
+
+    .hero-desc {
+        max-width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .hero-image {
+        display: flex;
+        order: 2;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        height: 280px; 
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    /* Menu Section */
+    #menu {
+        padding: 60px 20px;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 60px 20px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-info {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .nav-list ul {
+        gap: 10px;
+    }
+    
+    .nav-list ul li a {
+        font-size: 0.75rem;
+    }
 }
