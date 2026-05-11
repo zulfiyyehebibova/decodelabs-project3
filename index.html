@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zulya's Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <h2>Zulya's <span class="logo-span">Coffee</span></h2>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="toggleBtn" title="Toggle dark mode">🔆</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home">
+        <div class="hero-content">
+            <p class="hero-sub">Est. 2024 · Baku</p>
+            <h1>Every sip,<br><span>a story.</span></h1>
+            <p class="hero-desc">Handcrafted coffee made with love and the finest beans from around the world.</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://insanelygoodrecipes.com/wp-content/uploads/2020/07/Cup-Of-Creamy-Coffee.png" alt="Coffee-image">
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu">
+        <div class="section-inner">
+            <p class="section-sub">What we offer</p>
+            <h2 class="section-title">Our <span>Menu</span></h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-icon">☕</div>
+                    <h3>Espresso</h3>
+                    <p>Rich, bold shot pulled from premium single-origin beans.</p>
+                    <span class="price">3.50 ₼</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🥛</div>
+                    <h3>Latte</h3>
+                    <p>Smooth espresso with velvety steamed milk and light foam.</p>
+                    <span class="price">5.00 ₼</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🧋</div>
+                    <h3>Cold Brew</h3>
+                    <p>Slow-steeped for 18 hours, served over ice. Naturally sweet.</p>
+                    <span class="price">5.50 ₼</span>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">🍫</div>
+                    <h3>Mocha</h3>
+                    <p>Espresso blended with dark chocolate and steamed milk.</p>
+                    <span class="price">5.50 ₼</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-inner">
+            <p class="section-sub">Get in touch</p>
+            <h2 class="section-title">Contact <span>Us</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Nizami St. 42, Baku, Azerbaijan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🕐</span>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon – Fri: 08:00 – 21:00<br>Sat – Sun: 09:00 – 22:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📩</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@zulyascoffee.az</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your name" required />
+                    <input type="email" placeholder="Your email" required />
+                    <textarea rows="4" placeholder="Your message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h2>Zulya's <span class="logo-span">Coffee</span></h2>
+                <p>Baku's favorite corner for authentic coffee lovers.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">TripAdvisor</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Zulya's Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
