@@ -16,7 +16,7 @@ A modern and responsive coffee shop landing page built as part of my DecodeLabs 
 * **JavaScript** (Vanilla DOM Manipulation)
 
 ### 🎬 Live Demo
-👉 
+👉 https://zulfiyyehebibova.github.io/decodelabs-project3/
 
 ---
 🎓 **Internship:** This project was developed during the DecodeLabs Frontend Development Internship Program as part of Project 3: Interactive Web Elements.
