@@ -1,9 +1,11 @@
 ☕ Zulya’s Coffee — Interactive Web Experience
 
 A modern and responsive coffee shop landing page built as part of my DecodeLabs Frontend Internship Program (Project 3).
+
 This project focuses on JavaScript DOM manipulation, interactive UI elements, and a fully responsive design that works across all devices.
 
 🚀 Features
+
 🌗 Dark / Light mode toggle (JavaScript DOM manipulation)
 📍 Smooth scrolling navigation with active section highlight
 🧾 Interactive contact form with validation and success message
